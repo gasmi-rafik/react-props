@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Component from './profile/component';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Component name="james bond" bio=" Bond was born in 13 april 1968" profession="007" />
+      
+
+
+      
+
+
+<div style={{position:'relative',width:"180px",height:"40px",overflow:'hidden'}}>
+  <div style={{position:'absolute ',top:"-262px",left:"0px"}}>
+    <iframe  width="300" height="300" frameborder="0" src={"https://www.youtube.com/embed/U9FzgsF2T-s?autoplay=1&amp;rel=0" }>
+    </iframe>
+  </div>
+</div>
+
+
     </div>
   );
 }
